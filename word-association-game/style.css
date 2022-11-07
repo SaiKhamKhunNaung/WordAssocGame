@@ -1,0 +1,60 @@
+.app{
+    font-family: "Trebuchet MS",Verdana, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding:100px;
+}
+.questions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.questionBox{
+    background-color: rgb(21,21,21);
+    margin:15px;
+    color:white;
+    border-radius: 10px;
+    padding:5px 40px 10px 40px;
+}
+.questionBox h2 {
+    color: rgb(177,136,211);
+}
+
+.questionButtons{
+    display: flex;
+    flex-direction: row;
+
+}
+.questionButton{
+    margin:5px;
+    padding:10px 20px;
+    border-radius: 20px;
+    border:none;
+    background-color: rgb(75,134,111);
+    color:rgb(255,255,255);
+}
+.questionButton:hover{
+    background-color: rgb(30, 56, 46);
+}
+
+.questionButton:disabled{
+    background-color: rgb(121,121,121);
+    color:rgb(136,134,134)
+}
+
+.answerDisplay{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.correct{
+    color:rgb(211,211,117);
+   
+}
+
+.wrong{
+    color:rgb(211,134,117);
+}
